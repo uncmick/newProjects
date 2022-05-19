@@ -1,0 +1,187 @@
+body {
+  color: #40514E;
+  margin: 0px;
+  /* sets all 4 sides to 0 */
+  text-align: center;
+  /* will center all FULL BLOCK elements */
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 20px auto 0 auto;
+  /* auto will center by left and right margins*/
+  /* this reads margin: top right bottom left */
+  font-family: 'Sacramento', cursive;
+  font-size: 560%;
+  /*or 5.6em     or 5.6rem r-means relative to the root*/
+  color: #0D4D00;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #008080;
+  padding-bottom: 10px;
+  padding-top:10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #66FFCC;
+  padding-bottom: 20px;
+  margin:0;
+  font-weight: normal;
+}
+
+h5 {
+  margin-bottom: 10;
+}
+
+a {
+  color: orange;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+a:hover {
+  color: black;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-text {
+  line-height: 1;
+}
+
+hr {
+border: dotted #EAF6F6 6px;
+border-bottom: none;
+width: 5%;
+margin: 40px auto;
+}
+
+
+.top-container {
+  background-color: #446A46;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 0;
+  border-bottom: 0;
+
+}
+
+.middle-container {
+  margin-top: 0;
+  border-top: 0;
+  padding: 60px 0;
+  background-color: #82A284;
+}
+
+.skills {
+  background-color: #99C4C8;
+margin-top: 0;
+}
+
+.bottom-container {
+background-color: #F0FFFF;
+padding: 20px 0 20px;
+}
+
+.cloud3 {
+  position: absolute;
+  left: 280px;
+  top: 350px;
+}
+
+.occupation {
+  background-color: cornflowerblue;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 100px;
+  bottom: 250px;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 280px;
+  top: 40px;
+}
+
+.guitar {
+  width: 60x;
+  height: 150px;
+  float: right;
+  margin-left: 30px;
+}
+
+.footer-link {
+  color: orange;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 30px auto 100px auto;
+  /*this will center it */
+  text-align: left;
+
+}
+
+.java {
+  width: 30%;
+  height: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.travel {
+  width: 20%;
+ height: 20%;
+float: right;
+padding-bottom: 30px;
+padding-left: 30px;
+}
+
+
+.contact-me {
+  margin-top: 30px;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+
+}
+
+.myButton {
+	background-color:#008080;
+	border-radius:18px;
+
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Montserrat, sans-serif;
+	font-size:17px;
+	padding:14px 27px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color: lightblue;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.copyright {
+  color: #008080;
+  font-size: 0.75rem;
+}
+.travelPoll {
+  color: #008080;
+  margin: 0;
+  font-size: 1.25rem;
+}
